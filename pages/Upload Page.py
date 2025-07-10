@@ -18,7 +18,7 @@ if uploaded_file:
     st.image(image_bytes, caption="Uploaded Image", use_container_width=True)
 
     client = openai.OpenAI(
-        api_key="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",
+        api_key="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",
         base_url="https://openrouter.ai/api/v1"
     )
 
